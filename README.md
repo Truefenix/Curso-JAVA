@@ -28,7 +28,7 @@
  - Tratamento de Exceções
  - JavaFX
  - Banco de Dados Relacional
- - Bando de Dados NÃO Relacional (NoSQL)
+ - Banco de Dados NÃO Relacional (NoSQL)
  - JPA (Hibernate)
  - Spring Boot
 
