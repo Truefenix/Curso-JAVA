@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class ConverterPrimitivoToString {
+public class ConverterTipoPrimitivoParaString {
 	
 	public static void main(String[] args) {
 		

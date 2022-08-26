@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class ConvercaoTipoPrimitivoNumericos {
+public class ConversaoEntreOsTipoPrimitivoNumericos {
 	
 	public static void main(String[] args) {
 		

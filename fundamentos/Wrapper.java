@@ -15,7 +15,7 @@ public class Wrapper {
 		Double d = 1234.5678; // Wrapper Double
 
 		System.out.println(b.toString().replace("1", "AAA"));// transforma em "String" troca "1" para "AAA"
-		System.out.println(s.equals(s)); // s igual a b ? false
+		System.out.println(s.equals(b)); // s igual a b ? false
 		System.out.println(i); // Integer
 		System.out.println(l); // Long
 		System.out.println(f); // Float
