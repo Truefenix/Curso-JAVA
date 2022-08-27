@@ -23,6 +23,12 @@ public class OperadoresAritmeticos {
 		System.out.println((a + b) / 3); // (a + b) antes e depois a / com 3
 		System.out.println((1 + 1) * (a - b)); 
 		System.out.println((1 + 1) * (double) (a - b)); 
+		
+		// Pôtencia / Math.pow(0, 0);
+		int x = (3 * 4) - 10; // 2
+		int s = (int)Math.pow(x, 3); // x = (2) elevado a 3
+		
+		System.out.println(s);
 	}
 
 }
