@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Conversao;
 
 import java.util.Scanner;
 

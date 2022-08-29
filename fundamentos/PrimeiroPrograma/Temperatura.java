@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.PrimeiroPrograma;
 
 public class Temperatura {
 	public static void main(String[] args) {

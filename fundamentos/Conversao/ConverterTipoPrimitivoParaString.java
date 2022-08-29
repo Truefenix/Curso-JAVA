@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Conversao;
 
 public class ConverterTipoPrimitivoParaString {
 	

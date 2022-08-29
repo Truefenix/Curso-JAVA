@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Conversao;
 
 import javax.swing.JOptionPane; // Import do JOption
 

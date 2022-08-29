@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.TIPOS;
 
 // TIPOS NUMÉRICOS INTEIROS
 
