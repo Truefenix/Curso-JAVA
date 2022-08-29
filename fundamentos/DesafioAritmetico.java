@@ -9,7 +9,7 @@ public class DesafioAritmetico {
 		// 1- Parte
 		double parteUM = (3 + 2) * 6;
 		double ptum = Math.pow(parteUM, 2);
-		int divum = 3 * 2;
+		double divum = 3 * 2;
 
 		// 2- Parte
 		int partedois = (1 - 5) * (2 - 7);
@@ -17,7 +17,7 @@ public class DesafioAritmetico {
 		double ptdois = Math.pow(divdois, 2);
 
 		// Divisão
-		double divparteum = ptum / divum;
+		double divparteum =  ptum / divum;
 
 		// 3- Parte
 		double dividir = divparteum - ptdois;
