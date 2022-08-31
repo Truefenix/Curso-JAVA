@@ -1,6 +1,6 @@
 package fundamentos.Operadores;
 
-public class OperadoresAtribuicao {
+public class OperadoresTernario {
 	
 	public static void main(String[] args) {
 		
