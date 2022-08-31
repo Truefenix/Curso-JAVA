@@ -22,8 +22,9 @@ public class OperadoresRelacionais {
 		boolean BomComportamento = true;
 		boolean MaisQue = valor >= 7.0;
 		boolean nota = BomComportamento && MaisQue;
+		String resultado = nota ? "OK" : "Não";
 		
-		System.out.println("\n\nEle Tirou Nota \"Boa\"? " + nota);
+		System.out.println("\n\nEle Tirou Nota \"Boa\"? " + resultado);
 	}
 
 }
