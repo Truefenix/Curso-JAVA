@@ -1,4 +1,4 @@
-package fundamentos.Conversao;
+package fundamentos.Operadores;
 
 public class OperadoresTernarios {
 	
