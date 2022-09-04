@@ -6,7 +6,7 @@ public class Exercicio6 {
 	
 	public static void main(String[] args) {
 		
-		// Criar um programa que resolve equações de segundo grau.
+		// Criar um programa que resolve equações de segundo grau
 		
 		// 1 parte
 		Scanner entrada = new Scanner(System.in);
@@ -31,8 +31,6 @@ public class Exercicio6 {
 		
 		double x2 = (-b - Math.sqrt(delta)) / (2 * a);
 		System.out.printf("\nO x2 da equação é: %.2f" ,x2);
-		
-		double x2 = (-b - Math.sqrt(delta)) / (2 * a);
 		
 		entrada.close();
 		
