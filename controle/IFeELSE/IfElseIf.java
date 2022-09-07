@@ -1,4 +1,4 @@
-package controle;
+package controle.IFeELSE;
 
 import java.util.Locale;
 import java.util.Scanner;
