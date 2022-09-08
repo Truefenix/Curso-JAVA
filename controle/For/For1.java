@@ -1,4 +1,4 @@
-package controle;
+package controle.For;
 
 public interface For1 {
 	
