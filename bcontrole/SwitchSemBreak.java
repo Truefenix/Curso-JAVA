@@ -29,7 +29,26 @@ public class SwitchSemBreak {
 			System.out.println("Só pode branco, preto, azul, amarelo, "
 					+ " vermelho e laranja");
 		}
-
+		
+		System.out.println("FIM");
 		entrada.close();
+		
+		// teste switch
+		int idade = 8;
+		
+		switch(idade) {
+		case 1:
+			System.out.println("idade 1");
+			break;
+		case 2:
+			System.out.println("idade 2");
+			break;
+		case 3:
+			System.out.println("idade 3");
+			break;
+		default:
+			System.out.println("idade nenhuma");
+			break;
+		}
 	}
 }
