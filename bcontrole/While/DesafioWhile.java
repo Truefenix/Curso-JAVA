@@ -1,4 +1,4 @@
-package bcontrole;
+package bcontrole.While;
 
 import java.util.Scanner;
 
