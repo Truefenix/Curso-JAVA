@@ -1,4 +1,4 @@
-package bcontrole;
+package bcontrole.Switch;
 
 import java.util.Scanner;
 
