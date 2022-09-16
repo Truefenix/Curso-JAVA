@@ -9,7 +9,6 @@ public class Exercicio4NumPrimo {
 		/**
 		 * 4. Criar um programa que receba um número e diga se ele é um número primo.
 		 */
-		
 		int contadorDeDivisores = 0;
 		Scanner scanner = new Scanner(System.in);
 
