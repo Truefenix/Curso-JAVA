@@ -1,17 +1,16 @@
 package bcontrole;
 
-public class BreakRotulado {
+public class ContinueRotulado {
 
 	public static void main(String[] args) {
 		
-		// Break Rotulado
-		// Rótulo (externo:) para nomear um laço
+		// Continue Rotulado
 		
 		externo: for(int a = 0; a < 3 ; a++) {
 			for(int b = 0; b < 3 ; b++) {
 				
 				if(a == 1) {
-					break externo;
+					continue externo;
 				}
 				System.out.printf("[%d %d]", a, b);
 			}
