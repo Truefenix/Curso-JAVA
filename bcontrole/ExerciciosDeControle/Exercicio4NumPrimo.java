@@ -6,26 +6,28 @@ public class Exercicio4NumPrimo {
 
 	public static void main(String[] args) {
 		
+		// Em teste a lógica, em andamento...
+		
 		/**
 		 * 4. Criar um programa que receba um número e diga se ele é um número primo.
 		 */
-		int contadorDeDivisores = 0;
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("\nDigite um numero para verificar se é primo:");
-		int numero = scanner.nextInt();
-
-		for (int i = 2; i < numero; i++) {
-			if (numero % i == 0) {
-				contadorDeDivisores++;
+		System.out.print("Veja se o número é primo: ");
+		int num1 = scanner.nextInt();
+		int contador = 0;
+		int divisor = 0;
+		
+		while(contador <= num1) {
+			while(contador <= num1) {
+				
+				divisor = contador / contador;
 			}
+			
+			contador++;
 		}
-
-		if (contadorDeDivisores == 0) {
-			System.out.println("\nO numero " + numero + " é primo.");
-		} else {
-			System.out.println("\nO numero " + numero + " não é primo.");
-		}
+		System.out.println(contador + "--" + num1);
+		System.out.println(divisor);
 
 		scanner.close();
 	}
