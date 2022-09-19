@@ -1,6 +1,6 @@
 package cClasse;
 
-public class Produto1 {
+public class Produto {
 	
 	// criei um Tipo produto
 	// Com 3 atributos do produto
@@ -10,4 +10,8 @@ public class Produto1 {
 	double preco;
 	double desconto;
 
+	// Método 
+	double precoDesconto () {
+		return preco * (1 - desconto);
+	}
 }
