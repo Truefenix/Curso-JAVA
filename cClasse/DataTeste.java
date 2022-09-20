@@ -11,13 +11,14 @@ public class DataTeste {
 		d1.mes = 2;
 		d1.ano = 2022;
 		
-		System.out.printf("A Data é %d/%d/%d", d1.dia, d1.mes, d1.ano);
+		String DataFormatada1 = d1.dataFormatada();
+		System.out.println(DataFormatada1);
 		
 		var d2 = new Data();
 		d2.dia = 3;
 		d2.mes = 3;
 		d2.ano = 2023;
 		
-		System.out.printf("\nA Data é %d/%d/%d", d2.dia, d2.mes, d2.ano);
+		System.out.println(d2.dataFormatada());
 	}
 }

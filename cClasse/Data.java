@@ -7,5 +7,10 @@ public class Data {
 	int dia;
 	int mes;
 	int ano;
-
+	
+	// Desafio Método Refatorar a classe data com os atributos.
+	String dataFormatada() {
+		String formatado = dia + "/" + mes + "/" + ano;
+		return formatado;
+	}
 }

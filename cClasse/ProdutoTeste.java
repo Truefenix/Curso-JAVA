@@ -5,24 +5,17 @@ public class ProdutoTeste {
 
 	public static void main(String[] args) {
 		
-		Produto p1 = new Produto();
-		// Tipo Produto nome da var p1
-		// construtor new instância um objeto que é Prpduto1();	
-		p1.Nome = "Nootbook"; // dar valor aos atributos do objeto p1 tipo Produto1
-		p1.preco = 4356.89;
-		p1.desconto = 0.25;
+	//  Tipo Produto p1 recebe construtor explicito Produto(3 paramêtros);
+		Produto p1 = new Produto("Nootbook", 4356.89, 0.25);
 		
-		
-		
-		// criar uma var para instânciar outro objeto com os mesmos atributos
-		// assim como uma casa o tipo Produto1 é o molde, e
-		// com o molde eu posso criar quantos objetos eu quiser (Instâncias).
-		var p2 = new Produto();
-		p2.Nome = "Caneta Preta";
+		var p2 = new Produto(); // Construtor Padrão
+		p2.nome = "Caneta Preta";
 		p2.preco = 12.56;
 		p2.desconto = 0.29;
 		
 		System.out.println(p1.precoDesconto());
-		System.out.println(p2.precoDesconto());
+		System.out.println(p2.precoDesconto(0.1));
+		// no parâmetro (0.1) do Método precoDesconto
+		// o java entende que é o atributo descontoGerente
 	}
 }
