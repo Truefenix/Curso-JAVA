@@ -6,10 +6,7 @@ public class DataTeste {
 		
 		// Desafio Data criar 2 objeto (instância)
 		
-		Data d1 = new Data();
-		d1.dia = 2;
-		d1.mes = 2;
-		d1.ano = 2022;
+		Data d1 = new Data(2, 2, 2022);
 		
 		String DataFormatada1 = d1.dataFormatada();
 		System.out.println(DataFormatada1);
