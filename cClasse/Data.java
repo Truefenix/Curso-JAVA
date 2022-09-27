@@ -9,16 +9,17 @@ public class Data {
 	
 	// Construtor Padrão
 	Data () {
-		dia = 1; // valores Padrão quando no objeto não receber nenhum paramêtro de entrada
-		mes = 1;
-		ano = 1970;
+//		dia = 1;
+//		mes = 1;
+//		ano = 1970;
+		this(1, 1, 1970); // this método
 	}
 	
-	// Construtor com paramêtro de entrada
-	Data (int diaPadrao, int mesPadrao, int anoPadrao) {
-		dia = diaPadrao;
-		mes = mesPadrao;
-		ano = anoPadrao;
+	// Construtor com paramêtros de entrada
+	Data (int dia, int mes, int ano) {
+		this.dia = dia;
+		this.mes = mes; // this é utilizado para resolver conflitos nos nomes
+		this.ano = ano;
 	}
 	
 	// Desafio Método Refatorar a classe data com os atributos.
