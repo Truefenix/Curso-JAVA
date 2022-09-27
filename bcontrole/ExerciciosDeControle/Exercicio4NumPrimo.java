@@ -21,9 +21,10 @@ public class Exercicio4NumPrimo {
 		while(contador <= num1) {
 			System.out.printf("%d / %d = %.2f\n", num1, contador, divisor);
 		contador++;
-		divisor = num1 / contador;
+		divisor += num1 / contador;
 		}
-			
+		
+		System.out.println(divisor);
 		scanner.close();
 	}
 }

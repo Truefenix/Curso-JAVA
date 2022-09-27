@@ -5,7 +5,7 @@ public class Produto { // Tipo Produto
 	// 3 atributos do produto
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 	
 	// Construtor Padrão
 	Produto () {
@@ -13,11 +13,9 @@ public class Produto { // Tipo Produto
 	}
 	
 	// Construtor EXPLICITO
-	Produto (String nomeInicial, double precoInicial, // 3 parâmetro de entrada
-			double descontoInicial) {
-		nome = nomeInicial; // 3 paramêtro que vão ser recebidos no objeto.
+	Produto (String nomeInicial, double precoInicial) { // 3 parâmetro de entrada
+		nome = nomeInicial; // 2 paramêtro que vão ser recebidos no objeto.
 		preco = precoInicial;
-		desconto = descontoInicial;
 	}
 
 	// Método sem parâmetro de entrada e retorna um double
