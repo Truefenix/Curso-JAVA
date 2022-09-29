@@ -2,14 +2,14 @@ package cClasse.DesafioComida;
 
 public class Comida {
 	String nome;
-	static double peso;
+	double peso;
 
 	Comida() {
 		
 	}
 	
-	Comida(String nome, double peso1){
+	Comida(String nome, double peso){
 		this.nome = nome;
-		peso = peso1;
+		this.peso = peso;
 	}
 }

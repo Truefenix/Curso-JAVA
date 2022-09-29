@@ -1,26 +1,25 @@
 package cClasse.DesafioComida;
 
 public class Pessoa {
-	static String nome;
-	static double pesoAntes;
-	static double pesoDepois = comer();
+	String nome;
+	double peso;
 	
 	Pessoa() {
 		
 	}
 	
-	Pessoa(String nome1, double peso1) {
-		nome = nome1;
-		pesoAntes = peso1;
+	Pessoa(String nome, double peso) {
+		this.nome = nome;
+		this.peso = peso;
 	}
 
-	static double comer() {
-		return Comida.peso + pesoAntes;
+	void comer(Comida comida) { // criei uma var comida no tipo Comida
+		if(comida != null) {
+			this.peso += comida.peso; // chamei o atributo .peso pela var comida
+		}
 	}
-	
-	static String saida1() {
-		String formatado = nome + " tava com peso de " 
-	+ pesoAntes + "\ne agora está com " + pesoDepois;
+	String apresentar() {
+		String formatado = "Eu sou " + nome + " estou com " + peso + " KGs.";
 		return formatado;
 	}
 }
