@@ -1,6 +1,6 @@
-package cClasse;
+package cClasse.Equals;
 
-public class EqualsHashcode {
+public class Equals {
 
 	public static void main(String[] args) {
 		
@@ -12,8 +12,8 @@ public class EqualsHashcode {
 		u2.nome = "Pedro Silva";
 		u2.email = "pedro.silva@ezemail.com.br";
 		
-		System.out.println(u1 == u2); // False
-		System.out.println(u1.equals(u2)); // False
+		System.out.println(u1 == u2); // false
+		System.out.println(u1.equals(u2)); // true
 		
 //		System.out.println(u1 == u1); true
 		System.out.println(u1.equals(u1)); // true
