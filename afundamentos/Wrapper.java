@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Wrapper {
 
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 
 		// Wrapper de Tipos primitivos
