@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Lista {
 
 	public static void main(String[] args) {
+		
 		// Aplicação onde repete o scaner e sai em lista
 		
 		Scanner entrada = new Scanner(System.in);
