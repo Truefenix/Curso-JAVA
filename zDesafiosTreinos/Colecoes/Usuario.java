@@ -5,10 +5,11 @@ import java.util.Objects;
 public class Usuario {
 
 	String nome;
-	int soma;
+	int conta;
 	
-	Usuario(String nome) {
+	Usuario(String nome, int conta) {
 		this.nome = nome;
+		this.conta = conta;
 	}
 
 	@Override
