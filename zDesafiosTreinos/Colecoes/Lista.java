@@ -8,28 +8,25 @@ public class Lista {
 	public static void main(String[] args) {
 		// Aplicação onde repete o scaner e sai em lista
 
+		@SuppressWarnings("resource")
 		Scanner entrada = new Scanner(System.in);
 
 		ArrayList<Usuario> lista = new ArrayList<>();
-
-		String senha = "";
+		
+		String nome = "";
 		int conta = 0;
-		while (!senha.equals("-1") || conta != -1) {
-
-			System.out.print("Nome: ");
-			senha = entrada.nextLine();
-			
-			System.out.print("Nota: ");
-			conta = entrada.nextInt();
-
-			if (senha.equals("-1")) { // retira da lista o -1
-				continue;
+		lista.add(new Usuario(nome, conta));
+		
+		int rpt = 1;
+		for(int a = 0;a <= rpt; a++) {
+			for(int b = 0;b == a; b++) {
+				System.out.print("Nome: ");
+				nome = entrada.next();
 			}
-			if (conta != -1) {
-				continue;
+			for(int c = 0;c == a; c++) {
+				System.out.print("Nota: ");
+				conta = entrada.nextInt();
 			}
-
-			lista.add(new Usuario(senha, conta));
 		}
 
 		// Número separados da conta
