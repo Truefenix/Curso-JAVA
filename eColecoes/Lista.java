@@ -13,6 +13,8 @@ public class Lista {
 		lista.add(new Usuario("Lia"));
 		lista.add(new Usuario("Mia"));
 		
+		System.out.println(lista.get(1));
+		
 		for(Usuario u: lista) {
 			System.out.println(u.nome);
 		}
