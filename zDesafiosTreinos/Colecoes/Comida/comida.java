@@ -9,6 +9,7 @@ public class comida {
 		usuario comer = new usuario();
 		
 		String comida = comer.nome;
+		@SuppressWarnings("unused")
 		double peso = comer.peso;
 		
 		String senha = "";
