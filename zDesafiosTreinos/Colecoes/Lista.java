@@ -8,7 +8,6 @@ public class Lista {
 	public static void main(String[] args) {
 		// Aplicação onde repete o scaner e sai em lista
 
-		@SuppressWarnings("resource")
 		Scanner entrada = new Scanner(System.in);
 
 		ArrayList<Usuario> lista = new ArrayList<>();
