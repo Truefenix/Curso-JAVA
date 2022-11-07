@@ -43,7 +43,7 @@ https://www.udemy.com/course/fundamentos-de-programacao-com-java/
 
 
 ```
-##  🐟 Aluno
+##  🐠 Aluno
 <table align="center">
 <tr>
 <td align="center">
@@ -56,5 +56,5 @@ https://www.udemy.com/course/fundamentos-de-programacao-com-java/
 </tr>
 </table>
 <h4 align="center">
-By<a href="https://github.com/Eduardo-Roque" target="_blank"> Eduardo-Roque </a>🐟
+By<a href="https://github.com/Eduardo-Roque" target="_blank"> Eduardo-Roque </a>🐠
 </h4>
