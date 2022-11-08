@@ -11,5 +11,6 @@ public class Hash {
 		usuarios.add(new Usuario("Ana"));
 		usuarios.add(new Usuario("Bia"));
 		usuarios.add(new Usuario("Carla"));
+		usuarios.add(new Usuario("laura"));
 	}
 }
