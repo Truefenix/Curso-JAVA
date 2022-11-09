@@ -1,4 +1,4 @@
-package f.OO.composicao;
+package f.OO.composicao.UM_PRA_UM;
 
 public class CarroTeste {
 
@@ -13,7 +13,18 @@ public class CarroTeste {
 		
 		System.out.println(c1.motor.giros()); // c1 -> Carro -> motor -> giros()
 		
-		c1.desligar();
-		System.out.println(c1.estaLigado());
+		c1.acelerar();
+		c1.acelerar();
+		c1.acelerar();
+		c1.acelerar();
+
+		System.out.println(c1.motor.giros());
+		
+		c1.frear();
+		c1.frear();
+		c1.frear();
+		c1.frear();
+		
+		System.out.println(c1.motor.giros());
 	}
 }

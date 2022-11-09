@@ -1,9 +1,9 @@
-package f.OO.composicao;
+package f.OO.composicao.UM_PRA_UM;
 
 public class Motor {
 
 	boolean ligado = false;
-	int fatorInjecao = 1;
+	double fatorInjecao = 1;
 	
 	int giros() {
 		if(!ligado) {
