@@ -8,10 +8,12 @@ public class Compra {
 	
 	ArrayList<Item> lista = new ArrayList<>();
 	
+	// Relacionamento bilateral parte 1
 	void adicionarItem(String nome, int quantidade, double preco) {
 		this.adicionarItem(new Item(nome, quantidade, preco));
 	}
 	
+	// Relacionamento bilateral parte 2
 	void adicionarItem(Item item) {
 		this.lista.add(item);
 		item.compra = this;

@@ -4,6 +4,7 @@ public class Carro {
 
 	Motor motor = new Motor();
 	
+	// Relacionamento bilateral
 	void acelerar() {
 		if(motor.fatorInjecao < 2.6) {
 			motor.fatorInjecao += 0.4;
