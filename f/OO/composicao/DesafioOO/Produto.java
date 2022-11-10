@@ -1,4 +1,4 @@
-package f.OO.composicao;
+package f.OO.composicao.DesafioOO;
 
 public class Produto {
 

@@ -1,4 +1,4 @@
-package f.OO.composicao;
+package f.OO.composicao.DesafioOO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,5 +6,6 @@ import java.util.List;
 public class Cliente {
 
 	String nome;
+	
 	List<Compra> compra = new ArrayList<>();
 }
