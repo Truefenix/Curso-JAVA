@@ -1,4 +1,4 @@
-package f_OO.composicao.ENUM_HERANÇA;
+package f_OO.composicao.ENUM;
 
 public class Jogo {
 
