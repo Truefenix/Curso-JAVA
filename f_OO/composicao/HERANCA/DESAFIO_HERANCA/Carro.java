@@ -12,6 +12,8 @@ public class Carro {
 	void frear() {
 		if(VelocidadeAtual >= 5) {
 			this.VelocidadeAtual -= 5.0;
-		} 
+		} else {
+			VelocidadeAtual = 0;
+		}
 	}
 }
