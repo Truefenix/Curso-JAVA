@@ -5,7 +5,7 @@
 
 ##  🔖 Informações
 
-- Um curso desde o basico até o profissional (Nivel de Experiência: Todos os niveis).
+- Um curso desde o básico até o profissional (Nível de Experiência: Todos os níveis).
 
 
 ##  🚀 Tecnologias Usadas
