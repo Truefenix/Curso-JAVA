@@ -8,4 +8,8 @@ public class Cliente {
 	String nome;
 	
 	List<Compra> compra = new ArrayList<>();
+	
+	Cliente(Compra compra) {
+		this.compra.add(compra);
+	}
 }
