@@ -1,21 +1,43 @@
 package f_OO.composicao.encapsulamento;
 
 public class Pessoa {
-
+	
+	private String nome;
 	private int idade;
 	
 	// construtor que recebe na var private
-	public Pessoa(int idade) {
-		this.idade = idade;
+	public Pessoa(String nome, int idade) {
+		setNome(nome);
+		setIdade(idade);
 	}
 	
-	// método que vísuliza em o private em outra classe
-	public int lerIdade() {
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	// Getter
+	public int getIdade() {
 		return idade;
 	}
 	
-	// métodos que recebe a idade na var private
-	public void alterarIdade(int idade) {
-		this.idade = idade;
+	// Setter
+	public void setIdade(int idade) {
+		
+		idade = Math.abs(idade); // abs -> transforma tudo em positivo
+		
+		if(idade >= 0 && idade <= 120) {
+			this.idade = idade;
+		}
+	}
+	
+	@Override
+	public String toString() {
+		
+		return "Olá eu sou a " + getNome() 
+			+ " e tenho " + getIdade() + " anos de idade";
 	}
 }
