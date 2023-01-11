@@ -1,4 +1,3 @@
-<img align="center" alt="Curso-JAVA-msqlserver"  src="https://komarev.com/ghpvc/?username=Curso-JAVA&style=flat-square">
 <h3 align="center">
 📚 Meus Estudos do Passo a Passo no Java
 </h3>
