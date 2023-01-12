@@ -1,4 +1,4 @@
-package g_Lambdas.Interfaces;
+package g_Lambdas.InterfacesFuncionais;
 
 import java.util.function.Predicate;
 
