@@ -11,8 +11,4 @@ public class Produto {
 		this.preco = preco;
 		this.desconto = desconto;
 	}
-	
-	public String toString() {
-		return nome + " tem o preco " + preco + " deconto de " + desconto;
-	}
 }
