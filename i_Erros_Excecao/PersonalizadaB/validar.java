@@ -1,4 +1,4 @@
-package i_Erros_Excecao.PersonalizadaA;
+package i_Erros_Excecao.PersonalizadaB;
 
 import i_Erros_Excecao.Aluno;
 
@@ -6,7 +6,8 @@ public class validar {
 
 	public validar() {}
 	
-	public static void aluno(Aluno aluno) {
+	public static void aluno(Aluno aluno)
+			throws  StringVaziaException, NumeroForaIntervaloException{
 		
 		if(aluno == null) {
 			throw new IllegalArgumentException("O aluno está nulo...");
